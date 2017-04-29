@@ -1,19 +1,17 @@
 package it.isig.fasogare;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.View;
-import android.widget.Toast;
-
-import java.util.ArrayList;
 
 public class main extends AppCompatActivity {
     public static DBHelper myDb;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -38,12 +36,6 @@ public class main extends AppCompatActivity {
             else Toast.makeText(main.this, "ERREUR D'INSERTION", Toast.LENGTH_SHORT).show();
         }*/
 
-        findViewById(R.id.btnRefresh).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(main.this, "Actualisation", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         findViewById(R.id.btnAbout).setOnClickListener(new View.OnClickListener(){
             @Override

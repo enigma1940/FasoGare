@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,15 +10,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="it.isig.fasogare.main">
 
-    <Button
+    <ImageView
+        android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cartes"
-        android:id="@+id/btnCarte"
+        app:srcCompat="@drawable/icon_transp"
+        android:foregroundGravity="center_horizontal"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="145dp"
-        android:layout_alignRight="@+id/btnRefresh"
-        android:layout_alignEnd="@+id/btnRefresh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="137dp"
+        android:layout_above="@+id/btnGare" />
+
+    <Button
+        android:id="@+id/btnCarte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cartes"
+        android:layout_above="@+id/btnGare"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -26,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Gares"
         android:id="@+id/btnGare"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/btnAbout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
@@ -37,19 +47,13 @@
         android:layout_height="wrap_content"
         android:text="About"
         android:id="@+id/btnAbout"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/btnGare"
-        android:layout_alignLeft="@+id/btnGare"
-        android:layout_alignStart="@+id/btnGare"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Refresh"
-        android:id="@+id/btnRefresh"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+
+
 </RelativeLayout>
