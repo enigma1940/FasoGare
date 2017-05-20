@@ -18,6 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE gare(ID INTEGER PRIMARY KEY AUTOINCREMENT,ville VARCHAR(50),nomgare VARCHAR(50),quartier VARCHAR(40),compagnie VARCHAR(50),num_chefgare VARCHAR(50),nom_chefgare VARCHAR(80),num_couriel VARCHAR(50),num_billeterie VARCHAR(50),LONG REAL,LAT REAL,photo VARCHAR(60) NULL)");
+        db.execSQL("CREATE TABLE dest(ID INTEGER PRIMARY KEY AUTOINCREMENT, idgare INT NULL, ville VARCHAR(50) NULL, heure VARCHAR(40) NULL)");
     }
 
     @Override
@@ -76,4 +77,9 @@ public class DBHelper extends SQLiteOpenHelper {
         Cursor cr = db.query(true, "gare", cols, null, null, null, null, null, null);
         return cr;
     }
+
+    /*public boolean insertDestination(){
+        boolean result = false;
+
+    }*/
 }

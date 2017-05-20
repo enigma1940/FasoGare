@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/yenteck/.android/build-cache/4de4e010cc17cd525d01a6e7303b7c42561a7953/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_ba5822fa1b67979db29549beda55bcd6170c1445.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/yenteck/.android/build-cache/9a39bb2a8d423c2c484a08f7eb273f13c9ff0624/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
         <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_6c985a18a62ef605c18e14ad36ede62f09b5882a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/yenteck/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_34ff63de8c1ed078fc8afdb646851fe295bf1f30.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,15 +138,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/yenteck/.android/build-cache/d1c0a2d118a9f0bf5ca2bbac3ed892651a4771df/output/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_a1b40180a2a1e44d8fc972d73f6e39522b8d0b6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/yenteck/.android/build-cache/767646c9ad6c737f487be229a7d21be649d71d5b/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -189,15 +180,6 @@
         revision="25.0.2"
         sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
         <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_18369198c999d09189d1ea0835fdb1126e0c623e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/yenteck/.android/build-cache/d1c0a2d118a9f0bf5ca2bbac3ed892651a4771df/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_acce498367b0612cb359ca49f30ccc6664bfc223.jar" />
     </item>
     <item
         is-multidex="false"
@@ -261,6 +243,15 @@
         revision="25.0.2"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
         <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_d58bc7b0829eacae95ce3aae37cbadb3549062cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yenteck/.android/build-cache/82709266cb0ed1bb5964e765ec6cebd34cc7568e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8a4903076897a8fe029433ba0c3c3f958712ce">
+        <dex dex="/home/yenteck/AndroidStudioProjects/FasoGare/app/build/intermediates/pre-dexed/debug/classes_c66c7aed2126fed873b7be221d00bf857f4b5b21.jar" />
     </item>
     <item
         is-multidex="false"

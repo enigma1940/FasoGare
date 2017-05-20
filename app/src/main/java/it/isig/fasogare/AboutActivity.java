@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class about extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,7 +13,7 @@ public class about extends AppCompatActivity {
 
 
         TextView tabout = (TextView)findViewById(R.id.aboutLab);
-        tabout.setText("Cette Application a ete cree par IT ISIG");
+        tabout.setText("Cette Application a ete cree par IT2 ISIG");
 
     }
 }

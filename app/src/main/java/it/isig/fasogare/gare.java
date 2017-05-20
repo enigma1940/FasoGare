@@ -1,16 +1,15 @@
 package it.isig.fasogare;
 
+import android.content.Intent;
 import android.database.Cursor;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.style.RelativeSizeSpan;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -47,7 +46,7 @@ public class gare extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView vId = (TextView) listVille.getChildAt(position);
                 String tst = vId.getText().toString();
-                gareClass gare = new gareClass();
+              /*  gareClass gare = new gareClass();
                 gare.setId(Integer.parseInt(tst.subSequence(0, tst.indexOf(" ")).toString()));
                 gare.read(myDb);
                 layoutInfo.setVisibility(View.VISIBLE);
@@ -56,7 +55,10 @@ public class gare extends AppCompatActivity {
                 contactChef.setText(gare.getNum_chefgare());
                 contactBill.setText(gare.getNum_billeterie());
                 contactCour.setText(gare.getNum_couriel());
-                villeQ.setText(gare.getVille()+" : "+gare.getQuartier());
+                villeQ.setText(gare.getVille()+" : "+gare.getQuartier());*/
+                Intent intent = new Intent(gare.this, oneGareActivity.class);
+                intent.putExtra("id", Integer.parseInt(tst.subSequence(0, tst.indexOf(" ")).toString()));
+                startActivity(intent);
             }
         });
         //Toast.makeText(gare.this, getIntent().getExtras().getString("ville"), Toast.LENGTH_SHORT).show();

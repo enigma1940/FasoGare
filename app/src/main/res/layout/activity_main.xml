@@ -8,7 +8,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="it.isig.fasogare.main">
+    tools:context="it.isig.fasogare.MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnGare"
+        android:layout_alignLeft="@+id/btnGare"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnGare"
+        android:layout_alignStart="@+id/btnGare"
+        android:layout_marginBottom="24dp"
+        android:text="About" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -29,7 +41,13 @@
         android:text="Cartes"
         android:layout_above="@+id/btnGare"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="78dp"
+        android:layout_marginStart="78dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="76dp"
+        android:layout_marginEnd="76dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,10 +55,10 @@
         android:text="Gares"
         android:id="@+id/btnGare"
         android:layout_above="@+id/btnAbout"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/btnCarte"
+        android:layout_alignEnd="@+id/btnCarte"
+        android:layout_alignLeft="@+id/btnCarte"
+        android:layout_alignStart="@+id/btnCarte" />
 
     <Button
         android:layout_width="wrap_content"
@@ -49,11 +67,22 @@
         android:id="@+id/btnAbout"
         android:layout_marginBottom="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/btnGare"
+        android:layout_alignEnd="@+id/btnGare"
+        android:layout_alignLeft="@+id/btnGare"
+        android:layout_alignStart="@+id/btnGare" />
 
+    <Button
+        android:id="@+id/btnMonCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCarte"
+        android:layout_alignEnd="@+id/btnCarte"
+        android:layout_alignLeft="@+id/btnCarte"
+        android:layout_alignRight="@+id/btnCarte"
+        android:layout_alignStart="@+id/btnCarte"
+        android:text="Mon car"
+        android:onClick="startMonCarActivity"/>
 
 
 </RelativeLayout>
